@@ -56,7 +56,19 @@
         @include anchor-aspect(header);
 		@include font-weight(header-link);
 		text-transform: $link-header--transform;
-        padding: 0 $header-nav--padding-h;
+
+		// transition hover background colour to match other buttons
+		-moz-transition: all .1s ease-in;
+		-o-transition: all .1s ease-in;
+		-webkit-transition: all .1s ease-in;
+		transition: all .1s ease-in;
+		background: #ffffff;
+
+		// old padding
+        // padding: 0 $header-nav--padding-h;
+
+		// customize padding for documentation button so it doesnt look scuffed when you hover
+		padding: 6px 10px;
 
 		.invert-color & {
 			@include anchor-aspect(header, inverse);
@@ -79,6 +91,15 @@
 	+ .header-nav-right {
 		flex-grow: 0;
 	}
+}
+
+// this fixes the documentation hover colour
+.header-nav-right a:not(.button):hover {
+	background:rgb(105, 100, 198);
+  	color:white;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
 }
 
 .header-nav-toggle {
