@@ -64,6 +64,8 @@ small,
 
 .text-xxs {
 	@include font-size(xxs);
+
+	color: white;
 }
 
 figcaption {

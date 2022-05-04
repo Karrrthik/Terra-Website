@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
@@ -48,12 +48,21 @@ const Testimonial = ({
     paragraph: 'We got a white guy and two brown guys'
   };
 
+
+  // const myRef = useRef(null);
+
+  // export function const executeScroll () {
+  //   myRef.current.scrollIntoView({behavior: 'smooth'});
+  // }
+  
+  // // = () => myRef.current.scrollIntoView();
+
   return (
     <section
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div  className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>

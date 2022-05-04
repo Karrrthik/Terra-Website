@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Normal from './partials/Logo-Normal'
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -85,7 +86,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          <Normal />
           {!hideNav &&
             <>
               <button

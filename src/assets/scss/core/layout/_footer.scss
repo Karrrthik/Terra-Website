@@ -23,6 +23,10 @@
 }
 
 .footer-bottom {
+	a {
+		font-weight: 600;
+	}
+
 	padding-top: $footer-inner--padding-v * 0.5;
 }
 
@@ -122,16 +126,16 @@
 			}
 		}
 
-		&:hover {
+		// &:hover {
 
-			svg {
-				fill: color-icon(social-hover);
+		// 	svg {
+		// 		fill: color-icon(social-hover);
 
-				.invert-color & {
-					fill: color-icon(social-hover-inverse);
-				}
-			}
-		}
+		// 		.invert-color & {
+		// 			fill: color-icon(social-hover-inverse);
+		// 		}
+		// 	}
+		// }
 	}
 }
 
