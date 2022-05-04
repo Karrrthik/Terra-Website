@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Simplicity is key',
-    paragraph: 'Creativity should be simple. We make it simple.',
+    paragraph: 'Creativity should be simple. We wanted to be able to make a platform that allows anyone with limited knowledge of programming to develop on the Terra blockchain.',
   };
 
   return (
@@ -63,17 +63,19 @@ const FeaturesSplit = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
-{/* 
+{
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Fast and Efficient Development
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Block based coding!
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  The Blocks we use are designed specifically for Blockchain development. 
+                  Each block has a specific use case that you can tie in with others to build out your application. 
+                  We also have template blocks such that you can easily build out popular blockchain applications in a matter of minutes.
                   </p>
               </div>
               <div className={
@@ -89,7 +91,7 @@ const FeaturesSplit = ({
                   height={396} />
               </div>
             </div>
-
+/*
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
