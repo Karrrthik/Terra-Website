@@ -57,6 +57,15 @@
 	flex-grow: 1;
 }
 
+.profile-picture {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	border-radius: 50%;
+	width: 50%;
+	height: 110%;
+}
+
 .testimonial-item-source {
 	display: inline-flex; // to allow centering when using .content-center on a parent tag
 	flex-wrap: wrap;
