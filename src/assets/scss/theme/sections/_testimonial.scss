@@ -1,7 +1,7 @@
 .testimonial {
 
 	.tiles-item-inner {
-		background: get-color(dark, 2);		
+		background: get-color(light, 1);		
 	}
 }
 
@@ -22,7 +22,7 @@
 
 .testimonial-item-footer {
     font-weight: 600;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
 
     &.has-top-divider {
 
