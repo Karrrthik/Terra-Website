@@ -112,7 +112,7 @@ const Header = ({
                       'list-reset header-nav-right'
                     )}>
                     <li>
-                      <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Documentation</Link>
+                      <a href="https://github.com/KrishKrosh/TerrAble" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Documentation</a>
                     </li>
                   </ul>
                   {/* {!hideSignin &&
