@@ -45,7 +45,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Meet the Team',
-    paragraph: 'We are a group of Software Engineering students from the University of Waterloo who are passionate about Web3'
+    paragraph: 'We are a group of Software Engineering students from the University of Waterloo who are passionate about Web3.'
   };
 
 
