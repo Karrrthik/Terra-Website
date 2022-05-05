@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Smart contracts are too complex',
-    paragraph: 'We make them easier to understand and deploy',
+    paragraph: 'We make them easier to understand and deploy.',
   };
 
   return (
@@ -118,7 +118,7 @@ const FeaturesTiles = ({
                     Integration
                     </h4>
                   <p className="m-0 text-sm">
-                    We integrate you Terra wallet to your smart contracts to make it easier to manage.
+                    We connect your Terra wallet to your smart contracts to make it easier to manage.
                     </p>
                 </div>
               </div>
