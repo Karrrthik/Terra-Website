@@ -86,6 +86,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/codeblock.png')}
+                  style={{border:"2px solid #555"}}
                   alt="Features split 01"
                   width={528}
                   height={396} />
