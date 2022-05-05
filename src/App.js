@@ -3,9 +3,11 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import WebApp from './views/WebApp';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
+import LayoutDefault2 from './layouts/LayoutDefault2';
 
 // Views 
 import Home from './views/Home';
@@ -37,6 +39,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <AppRoute exact path="/webapp" component={WebApp} layout={LayoutDefault2} />
         </Switch>
       )} />
   );
