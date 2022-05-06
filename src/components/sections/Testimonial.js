@@ -2,6 +2,9 @@ import React, {useRef} from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import karthik from '../../assets/images/karthik.png';
+import chris from '../../assets/images/chris.jpg';
+import adrian from '../../assets/images/adrian.png';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -73,7 +76,7 @@ const Testimonial = ({
                   {/* <p className="text-sm mb-0">
                     — I like men especially Heet
                       </p> */}
-                  <img class="profile-picture" alt="Karthik Nambiar image" src="https://cdn.discordapp.com/attachments/575479716782276610/971539388498591804/IMG_6090.png"></img>
+                  <img class="profile-picture" alt="Karthik Nambiar image" src={karthik}></img>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0"> {//has-top-divider
                 }
@@ -92,7 +95,7 @@ const Testimonial = ({
                   {/* <p className="text-sm mb-0">
                     — Web3
                       </p> */}
-                  <img class="profile-picture" alt="Chris Abey image" src="https://cdn.discordapp.com/attachments/957091360089989130/971538855436111932/IMG_5047.jpg"></img>
+                  <img class="profile-picture" alt="Chris Abey image" src={chris}></img>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 "> {//has-top-divider
                 }
@@ -111,7 +114,7 @@ const Testimonial = ({
                   {/* <p className="text-sm mb-0">
                     — Apply gauss law
                       </p> */}
-                  <img class="profile-picture" alt="Adrian Gri image"src="https://cdn.discordapp.com/attachments/957091360089989130/971534139935322152/IMG_2105.jpg"></img>
+                  <img class="profile-picture" alt="Adrian Gri image"src={adrian}></img>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 "> {//has-top-divider
                 }
