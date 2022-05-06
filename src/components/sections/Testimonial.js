@@ -80,7 +80,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0"> {//has-top-divider
                 }
-                  <span className="testimonial-item-name text-color-primary">Karthik Nambiar</span>
+                  <span className="testimonial-item-name text-color-primary"><a style={{color: '#6964c6'}} href="https://twitter.com/3pmkarthik">Karthik Nambiar</a></span>
                   {/* <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">COO</a>
@@ -99,7 +99,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 "> {//has-top-divider
                 }
-                  <span className="testimonial-item-name text-color-primary">Chris Abey</span>
+                  <span className="testimonial-item-name text-color-primary"><a style={{color: '#6964c6'}} href="https://twitter.com/ChrisAbey3">Chris Abey</a></span>
                   {/* <span className="text-color-low"> / </span> */}
                   {/* <span className="testimonial-item-link">
                     <a href="#0">CTO</a>
@@ -118,7 +118,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 "> {//has-top-divider
                 }
-                  <span className="testimonial-item-name text-color-primary">Adrian Gri</span>
+                  <span className="testimonial-item-name text-color-primary"><a style={{color: '#6964c6'}} href="https://twitter.com/AdrianGri_">Adrian Gri</a></span>
                   {/* <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">CEO</a>
