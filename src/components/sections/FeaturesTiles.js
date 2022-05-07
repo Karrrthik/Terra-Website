@@ -140,7 +140,7 @@ const FeaturesTiles = ({
                     Play with Blocks
                     </h4>
                   <p className="m-0 text-sm">
-                    Why worry about learning rust? just play with blocks and try things out
+                    Why worry about learning Rust? Just play with blocks and try learn to develop.
                     </p>
                 </div>
               </div>
